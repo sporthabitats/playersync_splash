@@ -46,6 +46,10 @@ $(document).ready(function() {
     		, phoneNumber = form.find ("#cellphone-input").val ();
     		
     	if (validatePhoneNumber (phoneNumber)) {
+            $.post("send.php", form.serialize(),function(data){
+                
+            });
+             
     		form.hide ().next ().show ();
     	} else {
     		alert ('Invalid phone number');

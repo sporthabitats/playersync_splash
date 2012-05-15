@@ -1,0 +1,95 @@
+#ps-navbar { margin-bottom: 10px; }
+#nav-container { width: 940px; }
+#main-content { background-color: #fff; padding-top: 45px; border-radius: 8px; box-shadow: rgba(0,0,0,.30) 0 2px 3px; }
+      
+#iphone-hand { position: relative; background: url(../img/iphone-hand.png) no-repeat; height: 748px; }
+#app-screens { width: 241px; height: 345px; background: #ccc; position: absolute; top: 114px; left: 132px; }
+.footer { padding-top: 20px; }
+.footer-links { float: right; }
+.footer-links a { margin-left: 15px; color: #888; font-weight: 700; font-size: 14px; }
+.footer-links a:hover { color: #666; }
+       
+#statement-title { margin-top: 60px; }
+#statement-title span { color: #09c; }
+#description p { font-size: 24px; color: #666; margin: 25px 0 45px; line-height: 1.4em; }
+#description { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+#getapp { padding: 20px 30px; font-size: 24px; font-weight: 700; }
+#getapp img { position: relative; left: 10px; }
+#download-group { position: relative; }
+#download-group a { margin-left: 20px; }
+
+.footer hr { border-top: 1px solid #ddd !important; }
+
+#apple-app-store { float: left; }
+#google-play { float: right; margin-top: 8px; }
+#google-play span { font-size: 11px; margin-right: 10px; }
+
+#app-stores { border-top: 1px dotted #ddd; padding-top: 15px; }
+
+
+/* Rod Stuff */
+
+.getapp-text {
+	background: #FFF;
+	width: 224px;
+	color: #333;
+	padding: 15px 10px 15px;
+	margin-left: 10px;
+	left: -9px;
+	display: none;
+	
+	position: absolute;
+	top: 100%;
+	z-index: 8;
+	
+	-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+
+	-moz-box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+
+.getapp-text p {
+	font-size: 13px;
+	margin-bottom: 1em;
+}
+
+.getapp-text #cellphone-input {
+	width: 202px;
+	font-size: 16px;
+	padding: 10px;
+	margin: 15px 0 0;
+	border: 1px solid #AAA;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.getapp-text form {
+	position: relative;
+	margin-top: 10px;
+}
+
+.getapp-form .getapp-arrow {
+	display: none;
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+.getapp-success {
+	display: none;
+}
+
+.getapp-success p {
+	
+	margin-bottom: 0;
+}
+
+.sms-info { font-size: 14px; }

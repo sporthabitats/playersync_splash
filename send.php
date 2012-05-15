@@ -26,10 +26,7 @@
 
 	// Step 4: make an array of people we know, to send them a message. 
 	// Feel free to change/add your own phone number and name here.
-	$people = array(
-		"+17022031417" => "Piotr Tomasik",
-		
-	);
+	
 
 	// Step 5: Loop over all our friends. $number is a phone number above, and 
 	// $name is the name next to it
@@ -39,13 +36,13 @@
 
 		// Step 6: Change the 'From' number below to be a valid Twilio number 
 		// that you've purchased, or the Sandbox number+1 
-			"415-599-2671", 
+			"702-430-2797", 
 
 			// the number we are sending to - Any phone number
-			$number,
+			 $_POST['cellphone'],
 
 			// the sms body
-			"Hey, this is the number that would have been sent: ". $_POST['cellphone']
+			"Download Playersync and connect your active life with friends and the community around you."
 		);
 
 		// Display a confirmation message on the screen

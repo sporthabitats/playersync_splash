@@ -30,7 +30,7 @@
 
 	// Step 5: Loop over all our friends. $number is a phone number above, and 
 	// $name is the name next to it
-	foreach ($people as $number => $name) {
+	
 
 		$sms = $client->account->sms_messages->create(
 
@@ -46,5 +46,5 @@
 		);
 
 		// Display a confirmation message on the screen
-		echo "Sent message to $name";
-	}
+		echo "Sent message to ".$_POST['cellphone'];
+	

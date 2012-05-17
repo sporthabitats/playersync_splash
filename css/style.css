@@ -1,9 +1,11 @@
 #ps-navbar { margin-bottom: 10px; }
+#logo { opacity: 1; transition: opacity 0.2s ease; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; }
+#logo:hover { opacity: .8; }
 #nav-container { width: 940px; }
 #main-content { background-color: #fff; padding-top: 45px; border-radius: 8px; box-shadow: rgba(0,0,0,.30) 0 2px 3px; }
       
 #iphone-hand { position: relative; background: url(../img/iphone-hand.png) no-repeat; height: 748px; }
-#app-screens { width: 241px; height: 345px; background: #ccc; position: absolute; top: 114px; left: 132px; }
+#app-screens { width: 241px; height: 346px; background: #222; position: absolute; top: 113px; left: 132px; }
 .footer { padding-top: 20px; }
 .footer-links { float: right; }
 .footer-links a { margin-left: 15px; color: #888; font-weight: 700; font-size: 14px; }
@@ -25,6 +27,8 @@
 #google-play span { font-size: 11px; margin-right: 10px; }
 
 #app-stores { border-top: 1px dotted #ddd; padding-top: 15px; }
+#apple-app-store a { opacity: opacity: 1; transition: opacity 0.2s ease; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; }
+#apple-app-store a:hover { opacity: .7; }
 
 
 /* Rod Stuff */
@@ -79,8 +83,8 @@ border-bottom-left-radius: 5px;
 .getapp-form .getapp-arrow {
 	display: none;
 	position: absolute;
-	right: 15px;
-	bottom: 10px;
+	right: 10px;
+	bottom: 5px;
 }
 
 .getapp-success {

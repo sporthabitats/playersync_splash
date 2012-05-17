@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Playersync</title>
+    <title>Playersync - Scott</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -28,6 +28,14 @@
     #about-copy { padding: 25px; box-sizing: border-box; }
     #about-copy h1 { margin-bottom: 15px; }
     #about-copy p { font-size: 18px; line-height: 1.2em; color: #666; margin-bottom: 20px; }
+    #history { margin-bottom: 60px; }
+    #team-display { padding: 25px; box-sizing: border-box; }
+    .team-player { height: 150px; width: 100%; border-radius: 2px; margin-bottom: 15px; border: 1px solid #eee; }
+    
+    .scott { background: #f8f8f8 url(img/team/scott-1.png) no-repeat; }
+    .mike { background: #f8f8f8 url(img/team/mike-1.png) no-repeat; }
+    .piotr { background: #f8f8f8 url(img/team/piotr-1.png) no-repeat; }
+    .jeter { background: #f8f8f8 url(img/team/jeter-1.png) no-repeat; }
     </style>
   </head>
 
@@ -35,7 +43,7 @@
 
     <div id="ps-navbar" class="navbar">
         <div id="nav-container" class="container">
-          <img src="img/playersync_200w.png" />
+          <a id="logo" href="/"><img src="img/playersync_200w.png" /></a>
         </div>
     </div>
 
@@ -43,13 +51,23 @@
 	  <div class="row">
 	  
 	  	<div id="about-copy" class="span6">
-	  		<h1>About Us</h1>
-	  		<p>Playersync was founded in 2009 to connect active people around the the things they love to do most.</p> 
-	  		<p>We are driven to create a dynamic, mobile environment that delivers your active world no matter where you are or what you love to do. Connect, play, share - it's always there.</p>
+	  		<div id="history">
+	  			<h1>The Scoop</h1>
+	  			<p>Playersync was founded in 2009 to connect active people around the the things they love to do most.</p> 
+	  			<p>We are driven to create a dynamic, mobile environment that delivers your active world no matter where you are or what you love to do. Connect, play, share - it's always there.</p>
+	  		</div>
+	  		<div id="team">
+	  			<h1>The Team</h1>
+	  			<p>Playersync was developed by a group of active friends with unique talents and strange, sometimes unbelievable stories.</p>
+				<p>We are based in Las Vegas and our team is always growing. <a href="http://sporthabitats.com">Join us</a>!</p>
+			</div>
 	  	</div>
 	  	
-	  	<div class="span6">
-	  		<img src="img/iphone-hand.png" />
+	  	<div id="team-display" class="span6">
+	  		<div class="team-player scott"></div>
+	  		<div class="team-player mike"></div>
+	  		<div class="team-player piotr"></div>
+	  		<div class="team-player jeter"></div>
 	  	</div>
 	  
 	  </div> <!-- /row -->
@@ -60,7 +78,7 @@
     		<div class="container">
     			<div class="footer-links">
     				<a href="#">About</a>
-    				<a href="#">Blog</a>
+    				<a href="http://blog.playersync.com">Blog</a>
     				<a href="#">Community</a>
     			</div>
     			<div class="copyright">&#169; Playersync 2012</div>

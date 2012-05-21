@@ -13,11 +13,11 @@
        
 #statement-title { margin-top: 60px; }
 #statement-title span { color: #09c; }
-#description p { font-size: 24px; color: #666; margin: 25px 0 45px; line-height: 1.4em; }
+#description p { font-size: 24px; color: #666; margin: 25px 0 23px; line-height: 1.4em; }
 #description { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #getapp { padding: 20px 30px; font-size: 24px; font-weight: 700; }
 #getapp img { position: relative; left: 10px; }
-#download-group { position: relative; }
+#download-group { position: relative; margin-top: 45px; }
 #download-group a { margin-left: 20px; }
 
 .footer hr { border-top: 1px solid #ddd !important; }
@@ -30,6 +30,8 @@
 #apple-app-store a { opacity: opacity: 1; transition: opacity 0.2s ease; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; }
 #apple-app-store a:hover { opacity: .7; }
 
+a#learn-more { font-size: 20px; }
+a#learn-more i { margin-top: 6px; margin-left: 6px; }
 
 /* Rod Stuff */
 

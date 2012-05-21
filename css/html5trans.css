@@ -1,0 +1,125 @@
+
+
+.bg1 {background: url(../img/tour/signup-hiw.png) center center no-repeat; width:280px; height:449px; margin: 0 auto; }
+
+.position {
+	position:relative;
+	top:0;
+}
+.border {	
+	border:#CCCCCC 1px solid;
+	-webkit-border-radius: 5px;/* WebKit */
+	 -khtml-border-radius: 5px;/* Firefox */
+	   -moz-border-radius: 5px;/* Opera */
+			border-radius: 5px;/* Standard */
+}
+.transition {	
+	-webkit-transition: all 1s ease;/* WebKit */
+	   -moz-transition: all 1s ease;/* Firefox */
+		 -o-transition: all 1s ease;/* Opera */
+			transition: all 1s ease;/* Standard */				
+}
+.position:hover {
+	position:relative;
+	top:-10px;
+}
+.rotate:hover {
+	-webkit-transform: rotate(10deg);/* WebKit */
+	   -moz-transform: rotate(10deg);/* Firefox */
+		 -o-transform: rotate(10deg);/* Opera */
+			 ransform: rotate(10deg);/* Standard */
+}
+.rotate360:hover {
+	-webkit-transform: rotate(370deg);/* WebKit */
+	   -moz-transform: rotate(370deg);/* Firefox */
+		 -o-transform: rotate(370deg);/* Opera */
+			 ransform: rotate(370deg);/* Standard */
+}
+.shadow:hover {		 
+	-webkit-box-shadow: -10px 10px 35px #888;/* WebKit */
+	   -moz-box-shadow: -10px 10px 35px #888;/* Firefox */
+		 -o-box-shadow: -10px 10px 35px #888;/* Opera */
+			box-shadow: -10px 10px 35px #888;/* Standard */
+}
+.border:hover {
+	-webkit-border-bottom-left-radius:70px 20px;/* WebKit */
+	   -moz-border-bottom-left-radius:70px 20px;/* Firefox */
+		 -o-border-bottom-left-radius:70px 20px;/* Opera */
+			border-bottom-left-radius:70px 20px;/* Standard */
+}
+
+.before::before {
+	background-color:none;
+	background-image:url(img/screw.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	content:"";
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-12px;
+
+	-webkit-border-radius: 50%;/* WebKit */
+	   -moz-border-radius: 50%;/* Firefox */
+		 -o-border-radius: 50%;/* Opera */
+			border-radius: 50%;/* Standard */	
+	
+	-webkit-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* WebKit */
+	   -moz-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* Firefox */
+		 -o-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* Opera */
+			box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;	/* Standard */	
+
+	-webkit-transition: all 1s ease;/* WebKit */
+	   -moz-transition: all 1s ease;/* Firefox */
+		 -o-transition: all 1s ease;/* Opera */
+			transition: all 1s ease;/* Standard */	
+
+
+}
+
+.before:hover::before {
+	top:50%;
+	margin-top:-9px;
+
+	-webkit-transform: rotate(-720deg);/* WebKit */
+	   -moz-transform: rotate(-720deg);/* Firefox */
+		 -o-transform: rotate(-720deg);/* Opera */
+			transform: rotate(-720deg);/* Standard */
+}
+ .before_shadow::after {
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-12px;
+	content:"";
+	
+	-webkit-border-radius: 50%;/* WebKit */
+	   -moz-border-radius: 50%;/* Firefox */
+		 -o-border-radius: 50%;/* Opera */
+			border-radius: 50%;/* Standard */	
+	
+	-webkit-transition: all 1s ease;/* WebKit */
+	   -moz-transition: all 1s ease;/* Firefox */
+		 -o-transition: all 1s ease;/* Opera */
+			transition: all 1s ease;/* Standard */	
+			
+	-webkit-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;/* WebKit */
+	   -moz-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;/* Firefox */
+		 -o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;/* Opera */
+			box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;/* Standard */	
+
+ }
+ .before_shadow:hover::after {
+	top:50%;
+	margin-top:-9px;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* WebKit */
+	   -moz-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* Firefox */
+		 -o-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;/* Opera */
+			box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;	/* Standard */	
+
+}

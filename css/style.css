@@ -6,7 +6,7 @@
       
 #iphone-hand { position: relative; background: url(../img/iphone-hand.png) no-repeat; height: 748px; }
 #app-screens { width: 241px; height: 346px; background: #222; position: absolute; top: 113px; left: 132px; }
-.footer { padding-top: 20px; }
+.footer { padding-top: 20px; margin-bottom: 45px; }
 .footer-links { float: right; }
 .footer-links a { margin-left: 15px; color: #888; font-weight: 700; font-size: 14px; }
 .footer-links a:hover { color: #666; }

@@ -19,7 +19,10 @@
 
 
     <link rel="shortcut icon" href="/favicon.ico">
-    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
@@ -32,18 +35,16 @@
 
     <div id="main-content" class="container">
 	  <div class="row">
-	  <div class="alert alert-info"><strong>Attention</strong>! Playersync is now transitioning to our new mobile platform. Las Vegas area beta user accounts are no longer available.   </div>
 	  	
      	 <div class="span6">
      	 
      	 	<div id="iphone-hand">
      	 		<div id="app-screens" class="carousel slide">
      	 			<div class="carousel-inner">
-    					<div class="active item"><img src="img/app-ss/1.png" /></div>
-   	 					<div class="item"><img src="img/app-ss/2.png" /></div>
-    					<div class="item"><img src="img/app-ss/3.png" /></div>
-    					<div class="item"><img src="img/app-ss/4.png" /></div>
-    					<div class="item"><img src="img/app-ss/5.png" /></div>
+    					<div class="active item"><img src="img/app_screens/1.png" /></div>
+   	 					<div class="item"><img src="img/app_screens/3.png" /></div>
+    					<div class="item"><img src="img/app_screens/2.png" /></div>
+    					<div class="item"><img src="img/app_screens/4.png" /></div>
   					</div>
   					
   					
@@ -57,16 +58,39 @@
       	<div id="description" class="span6">
       		<h1 id="statement-title">Your active life. <span>Connected</span>.</h1>
       		<p>Playersync is how you connect your active life with friends and the community around you.</p>
+      		<a id="learn-more" href="/how-it-works.html">How it works<i class="icon-circle-arrow-right"></i></a>
       		
-      		
-      		      	
+      		<div id="download-group">
+      			<button id="getapp" class="btn btn-large btn-primary getapp-button">Get the app <img src="img/arrow.png" /></button>
+      			<div class="getapp-text">
+			
+				<form class="getapp-form">
+					
+					
+				<span class="sms-info">Enter your mobile number and we'll text you a download link!</span>
+				
+				<input type="text" name="cellphone" id="cellphone-input" placeholder="Your Mobile Number" autocomplete="off" />
+				
+				<input type="image" src="img/get-arrow.png" class="getapp-arrow" />
+				</form>
+				
+				<div class="getapp-success">
+					<h3>Your link is on its way!</h3>
+				</div> <!-- /get-app-success -->
+			</div> <!-- /app-txt -->
+
+      		</div>
+      		<br />
+      		<br />
+      		<br />
+      	
       		<div id="app-stores">
       			<div id="apple-app-store">
-      				<img src="img/app-store.png" />
+      				<a href="http://itunes.apple.com/us/app/path/id403639508?mt=8"><img src="img/app-store.png" /></a>
       			</div>
-      			<div id="coming-soon">
-      				<span>Beginning June 2012</span>
-      				
+      			<div id="google-play">
+      				<span>Coming soon to</span>
+      				<img src="img/google-play.png" />
       			</div>
       		</div>
       	</div>
@@ -79,9 +103,9 @@
     		<div class="container">
     			<div class="footer-links">
     				<a href="/about.html">About</a>
-    				
+    				<a href="/how-it-works.html">How it works</a>
     				<a href="/contact.html">Contact</a>
-    				
+    				<a href="http://blog.playersync.com">Blog</a>
     			</div>
     			<div class="copyright">&#169; Playersync 2012</div>
     		</div>

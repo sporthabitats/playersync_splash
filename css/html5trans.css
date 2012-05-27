@@ -1,6 +1,8 @@
 
 
-.bg1 {background: url(../img/tour/signup-hiw.png) center center no-repeat; width:280px; height:449px; margin: 0 auto; }
+.bg1 {background: url(../img/tour/1.png) center center no-repeat; width:460px; height:449px; }
+.bg2 {background: url(../img/tour/2.png) center center no-repeat; width:460px; height:449px; }
+.bg3 {background: url(../img/tour/3.png) center center no-repeat; width:460px; height:449px; }
 
 .position {
 	position:relative;

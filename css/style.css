@@ -26,12 +26,18 @@
 #google-play { float: right; margin-top: 8px; }
 #google-play span { font-size: 11px; margin-right: 10px; }
 
+/* temp */
+#coming-soon { float: right; margin-top: 15px; }
+#coming-soon span { font-size: 24px; margin-right: 10px; }
+
 #app-stores { border-top: 1px dotted #ddd; padding-top: 15px; }
 #apple-app-store a { opacity: opacity: 1; transition: opacity 0.2s ease; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; }
 #apple-app-store a:hover { opacity: .7; }
 
 a#learn-more { font-size: 20px; }
 a#learn-more i { margin-top: 6px; margin-left: 6px; }
+
+#main-content .alert { width: 800px; margin-left: 65px; margin-top: -15px; }
 
 /* Rod Stuff */
 

@@ -10,7 +10,7 @@ require 'capistrano/ext/multistage'
 set :application, "sporthabitats/playersync_splash"
 set :scm, :git
 set :repository, "git@github.com:sporthabitats/playersync_splash.git"
-set :deploy_to, "/var/www/playersync"
+set :deploy_to, "/var/www/playersync.com"
 
 task :uname do
 	run "uname -a"

@@ -39,6 +39,61 @@ a#learn-more i { margin-top: 6px; margin-left: 6px; }
 
 #main-content .alert { width: 800px; margin-left: 65px; margin-top: -15px; }
 
+
+/* About Page */
+#about-copy { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    #about-copy h1 { margin-bottom: 15px; }
+    #about-copy p { font-size: 18px; line-height: 1.2em; color: #666; margin-bottom: 20px; }
+    #history { margin-bottom: 60px; }
+    #team-display { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    .team-player { height: 150px; width: 100%; border-radius: 2px; margin-bottom: 15px; border: 1px solid #eee; }
+    
+    .scott { background: #f8f8f8 url(../img/team/scott-1.png) no-repeat; }
+    .mike { background: #f8f8f8 url(../img/team/mike-1.png) no-repeat; }
+    .piotr { background: #f8f8f8 url(../img/team/piotr-1.png) no-repeat; }
+    .jeter { background: #f8f8f8 url(../img/team/jeter-1.png) no-repeat; }
+    
+    
+    
+/* How it works */
+
+.tour-img {  }
+  	.tour-txt { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+  	.tour-box { margin-bottom: 40px; border-bottom: 1px solid #eee; }
+  	.explanations { list-style-type: none; margin-top: 50px; margin-left: 0; }
+  	.explanations li { color: #666; margin-bottom: 25px; font-size: 18px; line-height: 1.5em; }
+  	
+  	.pop-activities { background: url(../img/tour/lightning-icon.png) no-repeat left center; padding-left: 80px; }
+  	.local-action { background: url(../img/tour/pin-icon.png) no-repeat left center; padding-left: 80px; }
+  	.discover-new { background: url(../img/tour/bulb-icon.png) no-repeat left center; padding-left: 80px; }
+  	.friends-family { background: url(../img/tour/people-icon.png) no-repeat left center; padding-left: 80px; }
+  	.sync-nearby { background: url(../img/tour/sync-icon.png) no-repeat left center; padding-left: 80px; }
+  	.organize-together { background: url(../img/tour/clipboard-icon.png) no-repeat left center; padding-left: 80px; }
+  	
+  	
+/* contact */
+
+#contact-info { padding: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    #contact-info h1 { margin-bottom: 25px; }
+    #contact-info h4 { color: #666; }
+    #display-map { margin-bottom: 45px; }
+    #display-map iframe { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+	#hqmap { 
+		-webkit-box-shadow: 
+rgba(0, 0, 0, 0.4) 0 1px 4px;
+-moz-box-shadow: rgba(0,0,0,0.4) 0 1px 4px;
+box-shadow: 
+rgba(0, 0, 0, 0.4) 0 1px 4px;
+background: 
+white;
+padding: 10px 10px 5px;
+width: 575px; 
+    }
+    
+    #contact-links { margin-top: 45px; }
+    .contact-item { margin-bottom: 20px; }
+    .contact-item a { font-size: 16px; }
+
 /* Rod Stuff */
 
 .getapp-text {

@@ -5,7 +5,7 @@
 #main-content { background-color: #fff; padding-top: 45px; border-radius: 8px; box-shadow: rgba(0,0,0,.30) 0 2px 3px; }
       
 #iphone-hand { position: relative; background: url(../img/iphone-hand.png) no-repeat; height: 748px; }
-#app-screens { width: 241px; height: 346px; background: #222; position: absolute; top: 113px; left: 132px; }
+#app-screens { width: 241px; height: 346px; background: #222; position: absolute; top: 97px; left: 132px; }
 .footer { padding-top: 20px; margin-bottom: 45px; }
 .footer-links { float: right; margin-bottom: 15px; }
 .footer-links a { margin-left: 15px; color: #888; font-weight: 700; font-size: 14px; }

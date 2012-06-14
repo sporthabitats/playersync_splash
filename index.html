@@ -19,12 +19,10 @@
 
 
     <link rel="shortcut icon" href="/favicon.ico">
-    
-    <script type="text/javascript">
-		iphone-hand = new Image(460,748)
-		iphone-hand.src = "../img/iphone-hand.png"
-	</script>
-    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
@@ -37,7 +35,6 @@
 
     <div id="main-content" class="container">
 	  <div class="row">
-	  <div class="alert alert-info"><strong>Attention</strong>! Playersync is now transitioning to our new mobile platform. Las Vegas area beta user accounts are no longer available.   </div>
 	  	
      	 <div class="span6">
      	 
@@ -63,26 +60,40 @@
       	<div id="description" class="span6">
       		<h1 id="statement-title">Your active life. <span>Connected</span>.</h1>
       		<p>Playersync is how you connect your active life with friends and the community around you.</p>
+      		<a id="learn-more" href="/how-it-works">How it works<i class="icon-circle-arrow-right"></i></a>
       		
-      		
-      		      	
+      		<div id="download-group">
+      			<button id="getapp" class="btn btn-large btn-primary getapp-button">Get the app <img src="img/arrow.png" /></button>
+      			<div class="getapp-text">
+			
+				<form class="getapp-form">
+					
+					
+				<span class="sms-info">Enter your mobile number and we'll text you a download link!</span>
+				
+				<input type="text" name="cellphone" id="cellphone-input" placeholder="Your Mobile Number" autocomplete="off" />
+				
+				<input type="image" src="img/get-arrow.png" class="getapp-arrow" />
+				</form>
+				
+				<div class="getapp-success">
+					<h3>Your link is on its way!</h3>
+				</div> <!-- /get-app-success -->
+			</div> <!-- /app-txt -->
+
+      		</div>
+      		<br />
+      		<br />
+      		<br />
+      	
       		<div id="app-stores">
       			<div id="apple-app-store">
-      				<img src="img/app-store.png" />
+      				<a href="http://itunes.apple.com/us/app/playersync/id533924790?ls=1&mt=8"><img src="img/app-store.png" /></a>
       			</div>
-      			<div id="coming-soon">
-      				<span>Beginning June 2012</span>
-      				
+      			<div id="google-play">
+      				<span>Coming soon to</span>
+      				<img src="img/google-play.png" />
       			</div>
-      			
-      			<!--
-<div id="fb-friends" style="position: relative; top: 55px;">
-      			<iframe src="http://www.facebook.com/plugins/facepile.php? 
-app_id=220879277974372" scrolling="no" frameborder="0" style="border:none;  
-overflow:hidden; width:400px;" allowTransparency="true"></iframe>
-				</div>
--->
-
 
       		</div>
       	</div>
@@ -95,10 +106,9 @@ overflow:hidden; width:400px;" allowTransparency="true"></iframe>
     		<div class="container">
     			<div class="footer-links">
     				<a href="/">Home</a>
+    				<a href="/how-it-works">How it works</a>
     				<a href="/about">About</a>
-    				
     				<a href="/contact">Contact</a>
-    				
     			</div>
     			<div class="copyright">&#169; Playersync 2012</div>
     		</div>

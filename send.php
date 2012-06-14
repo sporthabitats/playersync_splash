@@ -42,7 +42,7 @@
 			 $_POST['cellphone'],
 
 			// the sms body
-			"Download Playersync and connect your active life with friends and the community around you. http://splash.psync-dev.com/appstore"
+			"Download Playersync and connect your active life with friends and the community around you. http://playersync.com/appstore"
 		);
 
 		// Display a confirmation message on the screen

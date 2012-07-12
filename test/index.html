@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Playersync</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    
+
+ 
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <style>
+    
+    #target-user-photo { width: 100px; height: 100px; background-color: #ccc; margin-right: 15px; float: left; border-radius: 10em; float: left; }
+    #target-user-photo { background: url(../img/test/test.jpeg) no-repeat center center; border: 5px solid #eee; }
+    #statement-title { margin-top: 15px; float: left; width: 285px; }
+    #fb-friends { margin-top: 100px; }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="ps-navbar" class="navbar">
+        <div id="nav-container" class="container">
+          <a id="logo" href="/"><img src="../img/playersync_200w.png" /></a>
+        </div>
+    </div>
+
+    <div id="main-content" class="container">
+	  <div class="row">
+	  	
+     	 <div class="span6">
+     	 
+     	 	<div id="iphone-hand">
+     	 		<div id="app-screens" class="carousel slide">
+     	 			<div class="carousel-inner">
+    					<div class="active item"><img src="../img/app-ss/1.png" /></div>
+   	 					<div class="item"><img src="../img/app-ss/2.png" /></div>
+    					<div class="item"><img src="../img/app-ss/3.png" /></div>
+    					<div class="item"><img src="../img/app-ss/4.png" /></div>
+    					<div class="item"><img src="../img/app-ss/5.png" /></div>
+    					<div class="item"><img src="../img/app-ss/6.png" /></div>
+  					</div>
+  					
+  					
+     	 		</div>
+     	 	</div>
+     	 	
+	
+      	
+      	</div> <!-- span6 -->
+      	
+      	<div id="description" class="span6">
+      		<div id="target-intro" class="clearfix">
+      			<div id="target-user-photo"></div><h1 id="statement-title">Connect with Jennifer</h1>
+      		</div>
+      		<p><strong>Jennifer</strong> uses Playersync to connect with people around Soccer and 7 other activities.</p>
+      		
+      		
+      		<div id="download-group">
+      			<button id="getapp" class="btn btn-large btn-primary getapp-button">Get the app <img src="../img/arrow.png" /></button>
+      			<div class="getapp-text">
+			
+				<form class="getapp-form">
+					
+					
+				<span class="sms-info">Enter your mobile number and we'll text you a download link!</span>
+				
+				<input type="text" name="cellphone" id="cellphone-input" placeholder="Your Mobile Number" autocomplete="off" />
+				
+				<input type="image" src="../img/get-arrow.png" class="getapp-arrow" />
+				</form>
+				
+				<div class="getapp-success">
+					<h3>Your link is on its way!</h3>
+				</div> <!-- /get-app-success -->
+			</div> <!-- /app-txt -->
+
+      		</div>
+      		<br />
+      		<br />
+      		<br />
+      	
+      		<div id="app-stores">
+      			<div id="apple-app-store">
+      				<a href="http://itunes.apple.com/us/app/playersync/id533924790?ls=1&mt=8"><img src="../img/app-store.png" /></a>
+      			</div>
+      			<div id="google-play">
+      				<span>Coming soon to</span>
+      				<img src="../img/google-play.png" />
+      			</div>
+
+      		</div>
+      		
+      		<div id="fb-friends"><iframe src="http://www.facebook.com/plugins/facepile.php? 
+app_id=220879277974372" scrolling="no" frameborder="0" style="border:none;  
+overflow:hidden; width:600px;" allowTransparency="true"></iframe></div>
+      	</div>
+     
+	  </div> <!-- /row -->
+    </div> <!-- /container -->
+    <div class="container">
+    	<div class="footer">
+    		
+    		<div class="container">
+    			<div class="footer-links">
+    				<a href="/">Home</a>
+    				<a href="/how-it-works">How it works</a>
+    				<a href="/about">About</a>
+    				<a href="/contact">Contact</a>
+    			</div>
+    			<div class="copyright">&#169; Playersync 2012</div>
+    		</div>
+   	 	</div>
+    </div>
+
+
+    <script src="../js/jquery/jquery-1.7.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.js"></script> 
+    <script src="../js/home.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/respond.src.js" type="text/javascript" charset="utf-8"></script>
+    
+        <script type="text/javascript"> 
+        $(document).ready(function(){ 
+                $('#app-screens').carousel({ 
+                        interval: 5000, 
+                }); 
+        }); 
+        </script> 
+        
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32305907-1']);
+  _gaq.push(['_setDomainName', 'playersync.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
